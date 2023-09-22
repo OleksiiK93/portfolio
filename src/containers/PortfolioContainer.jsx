@@ -10,7 +10,7 @@ const PortfolioContainer = () => {
         <Router>
             <NavBar/>
             <Routes>
-                <Route path="/portfolio" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/projects" element={<Projects/>}/>
                 <Route path="*" element={<ErrorPage/>}/>
             </Routes>
